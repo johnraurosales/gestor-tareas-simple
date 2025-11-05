@@ -3,14 +3,14 @@ tareas = []
 
 def agregar_tarea(tarea):
     tareas.append(tarea)
-    print(f"Tarea '{tarea}' agregada.")
+    print(f"\n✅ ¡Tarea '{tarea}' agregada exitosamente!")  # mensaje mejorado
 
 
 def mostrar_tareas():
     if not tareas:
-        print("No hay tareas.")
+        print("\n📋 No hay tareas pendientes. ¡Agrega una nueva!")  # mensaje mejorado
     else:
-        print("Listado de tareas:")
+        print("\n📝 Listado de tareas:")
         for i, tarea in enumerate(tareas, 1):
             print(f"{i}. {tarea}")
 
@@ -18,9 +18,9 @@ def mostrar_tareas():
 def eliminar_tarea(num):
     if 0 < num <= len(tareas):
         tarea = tareas.pop(num - 1)
-        print(f"Tarea '{tarea}' eliminada.")
+        print(f"\n🗑️ Tarea '{tarea}' eliminada correctamente.")  # mensaje mejorado
     else:
-        print("Número de tarea inválido.")
+        print("\n⚠️ Número de tarea inválido. Intenta otra vez.")
 
 
 while True:
@@ -40,7 +40,7 @@ while True:
         num = int(input("Número de tarea a eliminar: "))
         eliminar_tarea(num)
     elif opcion == "4":
-        print("¡Hasta luego!")
+        print("\n👋 ¡Hasta luego! Gracias por usar el gestor.")
         break
     else:
-        print("Opción inválida.")
+        print("\n🚫 Opción inválida. Intenta con las opciones disponibles.")
