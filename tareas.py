@@ -43,6 +43,8 @@ def eliminar_tarea(num):
 
 
 # Bucle principal: Menú interactivo de la aplicación
+
+print("👋 ¡Bienvenido al Gestor de Tareas Simple!")  # <-- Línea nueva a agregar
 while True:
     print("\nGestor de Tareas Simple")
     print("1. Crear tarea")  # Opción para agregar una tarea
