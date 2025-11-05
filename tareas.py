@@ -64,7 +64,7 @@ while True:
         except ValueError:
             print("❌ Sólo se permite número.")  # Controla error por datos no numéricos
     elif opcion == "4":
-        print("\n👋 ¡Hasta luego! Gracias por usar el gestor.")
+        print("\n👋 ¡Hasta luego! Recuerda: la organización es clave para la productividad.")
         break  # Sale del programa
     else:
         print("\n🚫 Opción inválida. Intenta con las opciones disponibles.")  # Mensaje si la opción no existe
