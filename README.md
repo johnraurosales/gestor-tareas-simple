@@ -33,3 +33,9 @@ Cada función incluye un docstring que explica su objetivo y funcionamiento.
 El menú principal controla la interacción y cada acción llamando a funciones separadas.
 
 El código incluye comentarios aclarando cada bloque.
+
+## Consejos para organizar tus tareas
+
+- Escribe tareas claras y específicas.
+- Actualiza la lista cada vez que completes una tarea.
+- Revisa tus pendientes antes de finalizar el día.
