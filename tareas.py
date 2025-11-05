@@ -21,3 +21,26 @@ def eliminar_tarea(num):
         print(f"Tarea '{tarea}' eliminada.")
     else:
         print("Número de tarea inválido.")
+
+
+while True:
+    print("\nGestor de Tareas Simple")
+    print("1. Crear tarea")
+    print("2. Consultar tareas")
+    print("3. Eliminar tarea")
+    print("4. Salir")
+    opcion = input("Selecciona una opción: ")
+    if opcion == "1":
+        tarea = input("Ingresa la tarea: ")
+        agregar_tarea(tarea)
+    elif opcion == "2":
+        mostrar_tareas()
+    elif opcion == "3":
+        mostrar_tareas()
+        num = int(input("Número de tarea a eliminar: "))
+        eliminar_tarea(num)
+    elif opcion == "4":
+        print("¡Hasta luego!")
+        break
+    else:
+        print("Opción inválida.")
