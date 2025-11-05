@@ -13,3 +13,11 @@ def mostrar_tareas():
         print("Listado de tareas:")
         for i, tarea in enumerate(tareas, 1):
             print(f"{i}. {tarea}")
+
+
+def eliminar_tarea(num):
+    if 0 < num <= len(tareas):
+        tarea = tareas.pop(num - 1)
+        print(f"Tarea '{tarea}' eliminada.")
+    else:
+        print("Número de tarea inválido.")
