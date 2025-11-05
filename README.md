@@ -1,6 +1,5 @@
 Gestor de Tareas Simple
-Este proyecto es un gestor de tareas interactivo hecho en Python para consola. Permite practicar los conceptos básicos
-de programación, control de versiones (Git/GitHub) y documentación.
+Este proyecto es un gestor de tareas interactivo hecho en Python para consola.
 
 Funcionalidades
 Agregar tarea: Añade una nueva tarea (evita tareas vacías).
