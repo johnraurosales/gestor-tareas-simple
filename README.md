@@ -1,7 +1,9 @@
-Gestor de Tareas Simple
+## Gestor de Tareas Simple
+
 Este proyecto es un gestor de tareas interactivo hecho en Python para consola.
 
-Funcionalidades
+## Funcionalidades
+
 Agregar tarea: Añade una nueva tarea (evita tareas vacías).
 
 Consultar tareas: Muestra todas las tareas pendientes, con numeración.
@@ -12,12 +14,14 @@ Mensajes claros: Notificaciones visuales para cada acción.
 
 Validaciones: Asegura que no se agreguen tareas vacías y que la opción de eliminación sólo acepte números válidos.
 
-Uso
+## Uso
+
 Ejecuta en consola:
 
 bash
 python gestor_tareas_simple.py
-Menú principal:
+
+## Menú principal:
 
 1. Crear tarea: Ingresa el texto de la tarea para agregarla.
 
@@ -39,3 +43,8 @@ El código incluye comentarios aclarando cada bloque.
 - Escribe tareas claras y específicas.
 - Actualiza la lista cada vez que completes una tarea.
 - Revisa tus pendientes antes de finalizar el día.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT.  
+Consulta el archivo LICENSE para más detalles.
